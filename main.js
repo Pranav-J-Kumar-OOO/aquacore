@@ -1,7 +1,7 @@
 let motor_status = 0;
 
 function openLink(id_,pin_no) {
-    link = "https://blr1.blynk.cloud/external/api/get?token=yo_Zs3TWg8RIQ82NFmSJjdvevHg-NoeG&V"+pin_no;
+    link = "https://blr1.blynk.cloud/external/api/get?token=bSE2rpEtFas-drlW1ik1VwuUJln6KrNO&V"+pin_no;
     //console.log(link);
     fetch(link)
     .then(response => {
